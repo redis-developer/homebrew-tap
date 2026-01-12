@@ -1,13 +1,13 @@
 class Redisctl < Formula
   desc "CLI for Redis Cloud and Enterprise management"
   homepage "https://github.com/redis-developer/redisctl"
-  version "0.7.2"
+  version "0.7.4"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-v0.7.2/redisctl-aarch64-apple-darwin.tar.xz"
-      sha256 "19e4e038990a581935f8a368ea34e8d1cf9526f5ec1134f9ade9b1c6c5045a3b"
+      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-v0.7.4/redisctl-x86_64-apple-darwin.tar.xz"
+      sha256 "c88b6ee2b7c768e2c55a57f819cf8527d9ce2dbe6e00541ecfb6a6e39b5e3b9a"
     end
     on_intel do
       url "https://github.com/redis-developer/redisctl/releases/download/redisctl-v0.7.2/redisctl-x86_64-apple-darwin.tar.xz"
