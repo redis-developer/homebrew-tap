@@ -1,24 +1,24 @@
 class RedisctlMcp < Formula
   desc "MCP server for AI-powered Redis management"
   homepage "https://github.com/redis-developer/redisctl"
-  version "0.5.0"
+  version "0.8.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-mcp-v0.5.0/redisctl-mcp-aarch64-apple-darwin.tar.xz"
-      sha256 "3b6a39b957d3837f09db805e1fb3f17d1e86d4cb63dbdda1e2a262e289957c3d"
+      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-mcp-v0.8.2/redisctl-mcp-aarch64-apple-darwin.tar.xz"
+      sha256 "b22d793bbbdf0e3175449daa2f24a621015cbf2fbf7f116301bdb6d40cb9d9e3"
     end
     on_intel do
-      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-mcp-v0.5.0/redisctl-mcp-x86_64-apple-darwin.tar.xz"
-      sha256 "dcaaa7baca6e3727c1593090666b320360c2ddf2e4af28fab11decd0b7be8ce1"
+      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-mcp-v0.8.2/redisctl-mcp-x86_64-apple-darwin.tar.xz"
+      sha256 "513eaa0cc088a39f3a13f8b1271e15bd70e320caf0c33ff575db7928a2afe254"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-mcp-v0.5.0/redisctl-mcp-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ece5631168e1ff5d9a6928d0447d965f1dbd1dd148ed549d3172a4a140dfdc71"
+      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-mcp-v0.8.2/redisctl-mcp-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "17898926d728635b3c03d77b4f44cc30bf358452b084bba912d5f7454f5e2c06"
     end
   end
 
