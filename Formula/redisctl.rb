@@ -1,24 +1,24 @@
 class Redisctl < Formula
   desc "CLI for Redis Cloud and Enterprise management"
   homepage "https://github.com/redis-developer/redisctl"
-  version "0.9.1"
+  version "0.10.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-v0.9.1/redisctl-aarch64-apple-darwin.tar.xz"
-      sha256 "a0757289383d218a41477dc2b9e390cf2c9343a3550fb833226aa72df819523c"
+      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-v0.10.0/redisctl-aarch64-apple-darwin.tar.xz"
+      sha256 "31ffd65b70b0a70513e99313350c125a8ae745f1ae0b8b338c54a89f2a2fde7b"
     end
     on_intel do
-      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-v0.9.1/redisctl-x86_64-apple-darwin.tar.xz"
-      sha256 "222a08f81c87470d506d9e5514568bbaec5b8d3445ff0c13bf4a470226fcc36d"
+      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-v0.10.0/redisctl-x86_64-apple-darwin.tar.xz"
+      sha256 "8cc9591cb395decd7b61a1a6f3cccb51bf409bdbe371c55b80cba706ce59b7fd"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-v0.9.1/redisctl-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "453f4ca1bbcab7dbf3a01a074520940792197c1827c3f474e5b69b42e1a7a362"
+      url "https://github.com/redis-developer/redisctl/releases/download/redisctl-v0.10.0/redisctl-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "18aeb7fac8d2e0852116e2b9d1aecf1be3c7748847f4e8318c377cdd61c735a7"
     end
   end
 
